@@ -22,10 +22,10 @@ Software:
 
 It is also possible to specify all the needed information directly on the command line (i.e. without entering the interactive mode).  
 Each argument can be looked up in the usage/help screen:  
-    ./craft_hccap.pl --help
+    ./craft_hccap.pl --help  
 Furthermore, each argument can be used multiple times (except --help and --outfile).  
 So for instance if you specify the full set of needed arguments twice:  
-    ./craft_hccap.pl -o outfile -e "network 1" -b ... -e "network 2" -b ...
+    ./craft_hccap.pl -o outfile -e "network 1" -b ... -e "network 2" -b ...  
 then a .hccap file with 2 networks inside will be created (a so called multi-hccap file).  
 
 The same can be done in interactive mode by answering the question accordingly.  
