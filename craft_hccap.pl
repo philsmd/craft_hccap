@@ -35,7 +35,7 @@ sub usage ()
   print "-k | --key-mic       MD5 or SHA1 hash value, depending on the key version (truncated to 16 bytes)\n\n";
 
   print "NOTE: all arguments except --help and --outfile can be repeated multiple times, if you want to craft a .hccap\n";
-  print "file which contains several networks (i.e. which contains several hccap files, a so-called mutli hccap file)\n";
+  print "file which contains several networks (i.e. which contains several hccap files, a so-called multi hccap file)\n";
 }
 
 sub is_valid_hex

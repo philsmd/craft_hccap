@@ -3,6 +3,8 @@
 The goal of this project is to make it possible to generate/craft a new hashcat .hccap file from just the few information needed (essid, bssid, client mac, snonce, anonce, eapol, eapol size, key version and key mic).  
 The format of the .hccap files is defined here: https://hashcat.net/wiki/doku.php?id=hccap
 
+Note: for the newer [.hccapx format](https://hashcat.net/wiki/hccapx) you can use [craft_hccapx](https://github.com/philsmd/craft_hccapx)
+
 # Requirements
 
 Software:  
